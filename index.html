@@ -1,0 +1,1794 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1809746580283090');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1809746580283090&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title id="pageTitle">WebCraft | صفحات هبوط وإعلانات للتجارة الإلكترونية</title>
+  <meta
+    id="pageDescription"
+    name="description"
+    content="WebCraft تصمم صفحات هبوط عصرية، تربط نظام الطلبات، وتنتج المحتوى الإعلاني وتدير حملات Meta Ads."
+  />
+  <meta id="ogTitle" property="og:title" content="WebCraft | صفحات هبوط وإعلانات للتجارة الإلكترونية" />
+  <meta id="ogDescription" property="og:description" content="WebCraft تصمم صفحات هبوط عصرية، وتنتج المحتوى الإعلاني، وتدير حملات Meta Ads." />
+  <meta property="og:type" content="website" />
+
+  <meta name="theme-color" content="#0b0712" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    :root {
+      --bg: #0b0712;
+      --bg-soft: #10091a;
+      --surface: #160e23;
+      --surface-2: #1d132b;
+      --text: #faf7ff;
+      --muted: #b1a6bf;
+      --purple: #ad79ff;
+      --purple-light: #d7bdff;
+      --purple-dark: #251337;
+      --border: rgba(221, 198, 255, 0.12);
+      --success: #8df0bd;
+      --radius: 24px;
+      --max-width: 1180px;
+      --shadow: 0 30px 90px rgba(0, 0, 0, 0.38);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
+    body {
+      min-height: 100vh;
+      overflow-x: hidden;
+      background:
+        radial-gradient(circle at 80% 4%, rgba(157, 93, 255, 0.16), transparent 28%),
+        radial-gradient(circle at 8% 35%, rgba(117, 61, 190, 0.09), transparent 25%),
+        var(--bg);
+      color: var(--text);
+      font-family: "Manrope", "Alexandria", sans-serif;
+      line-height: 1.7;
+    }
+
+    html[dir="rtl"] body {
+      font-family: "Alexandria", "Manrope", sans-serif;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    summary,
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    img,
+    svg {
+      display: block;
+    }
+
+    .container {
+      width: min(var(--max-width), calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .icon {
+      width: 21px;
+      height: 21px;
+      flex: 0 0 auto;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin-bottom: 18px;
+      color: var(--purple-light);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    html[dir="rtl"] .eyebrow {
+      letter-spacing: 0;
+    }
+
+    .eyebrow::before {
+      width: 7px;
+      height: 7px;
+      flex: 0 0 auto;
+      background: var(--purple);
+      border-radius: 50%;
+      box-shadow: 0 0 20px rgba(173, 121, 255, 0.8);
+      content: "";
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.12;
+      font-weight: 800;
+      font-family: "Alexandria", "Manrope", sans-serif;
+    }
+
+    html[dir="rtl"] h1,
+    html[dir="rtl"] h2,
+    html[dir="rtl"] h3 {
+      line-height: 1.4;
+    }
+
+    h1 {
+      max-width: 780px;
+      font-size: clamp(2.8rem, 6.3vw, 5.7rem);
+      letter-spacing: -0.055em;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 4vw, 3.6rem);
+      letter-spacing: -0.045em;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      letter-spacing: -0.025em;
+    }
+
+    html[dir="rtl"] h1,
+    html[dir="rtl"] h2,
+    html[dir="rtl"] h3 {
+      letter-spacing: -0.02em;
+    }
+
+    .accent {
+      color: var(--purple-light);
+    }
+
+    .section {
+      padding: 105px 0;
+    }
+
+    .section-heading {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 60px;
+      align-items: end;
+      margin-bottom: 48px;
+    }
+
+    .section-heading p,
+    .hero-copy {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    /* Buttons */
+    .button {
+      display: inline-flex;
+      min-height: 54px;
+      padding: 0 23px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border: 1px solid transparent;
+      border-radius: 100px;
+      font-size: 0.88rem;
+      font-weight: 800;
+      transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-primary {
+      background: var(--purple);
+      color: #13091d;
+      box-shadow: 0 12px 35px rgba(157, 93, 255, 0.15);
+    }
+
+    .button-primary:hover {
+      background: #bd91ff;
+      box-shadow: 0 15px 45px rgba(157, 93, 255, 0.25);
+    }
+
+    .button-secondary {
+      border-color: var(--border);
+      background: rgba(255, 255, 255, 0.035);
+      color: var(--text);
+    }
+
+    .button-secondary:hover {
+      background: rgba(255, 255, 255, 0.07);
+    }
+
+    .button-dark {
+      background: #13091d;
+      color: white;
+    }
+
+    /* Header */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--border);
+      background: rgba(11, 7, 18, 0.84);
+      backdrop-filter: blur(20px);
+    }
+
+    .nav {
+      display: flex;
+      min-height: 80px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+    }
+
+    .logo {
+      display: inline-flex;
+      flex: 0 0 auto;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.18rem;
+      font-weight: 800;
+      font-family: "Alexandria", "Manrope", sans-serif;
+    }
+
+    .logo-mark {
+      display: grid;
+      width: 38px;
+      height: 38px;
+      place-items: center;
+      background: linear-gradient(145deg, #d7bdff, #9253ef);
+      border-radius: 12px;
+      color: #170a22;
+      transform: rotate(-7deg);
+      box-shadow: 0 8px 24px rgba(173, 121, 255, 0.2);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+
+    .nav-links a {
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text);
+    }
+
+    .nav-actions {
+      display: flex;
+      flex: 0 0 auto;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .language-switch {
+      display: flex;
+      direction: ltr;
+      padding: 4px;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.025);
+      border-radius: 100px;
+    }
+
+    .language-switch button {
+      min-width: 32px;
+      height: 30px;
+      padding: 0 8px;
+      border: 0;
+      background: transparent;
+      border-radius: 100px;
+      color: var(--muted);
+      font-size: 0.65rem;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .language-switch button.active {
+      background: var(--purple);
+      color: #150a20;
+    }
+
+    .nav .button {
+      min-height: 43px;
+      padding-inline: 17px;
+      font-size: 0.75rem;
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 42px;
+      height: 42px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      border-radius: 12px;
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    /* Hero */
+    .hero {
+      padding: 85px 0 80px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.12fr 0.88fr;
+      gap: 65px;
+      align-items: center;
+    }
+
+    .hero-copy {
+      max-width: 650px;
+      margin: 24px 0 31px;
+      font-size: 1.03rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 30px;
+    }
+
+    .tag {
+      display: inline-flex;
+      padding: 7px 11px;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: 100px;
+      color: var(--muted);
+      font-size: 0.69rem;
+      font-weight: 600;
+    }
+
+    .tag::before {
+      color: var(--purple-light);
+      content: "✓";
+    }
+
+    /* Hero workflow */
+    .workflow {
+      position: relative;
+      padding: 24px;
+      border: 1px solid rgba(205, 173, 255, 0.18);
+      background:
+        linear-gradient(145deg, rgba(173, 121, 255, 0.1), transparent 45%),
+        var(--surface);
+      border-radius: 30px;
+      box-shadow: var(--shadow);
+    }
+
+    .workflow::before {
+      position: absolute;
+      z-index: -1;
+      inset: 15% -15% -10% 20%;
+      background: rgba(150, 80, 255, 0.17);
+      border-radius: 50%;
+      filter: blur(65px);
+      content: "";
+    }
+
+    .workflow-top {
+      display: flex;
+      margin-bottom: 20px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .workflow-top > span:first-child {
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .live {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      color: var(--success);
+      font-size: 0.62rem;
+      font-weight: 700;
+    }
+
+    .live::before {
+      width: 7px;
+      height: 7px;
+      background: var(--success);
+      border-radius: 50%;
+      content: "";
+      box-shadow: 0 0 13px rgba(141, 240, 189, 0.55);
+    }
+
+    .order-card {
+      padding: 19px;
+      border: 1px solid var(--border);
+      background: rgba(8, 4, 14, 0.62);
+      border-radius: 19px;
+    }
+
+    .order-label {
+      margin-bottom: 4px;
+      color: var(--muted);
+      font-size: 0.65rem;
+    }
+
+    .order-title {
+      display: flex;
+      margin-bottom: 18px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .order-status {
+      padding: 5px 9px;
+      background: rgba(141, 240, 189, 0.09);
+      border-radius: 100px;
+      color: var(--success);
+      font-size: 0.58rem;
+      white-space: nowrap;
+    }
+
+    .flow-list {
+      display: grid;
+      gap: 9px;
+    }
+
+    .flow-item {
+      display: grid;
+      grid-template-columns: 38px 1fr auto;
+      gap: 11px;
+      padding: 11px;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.035);
+      border-radius: 12px;
+    }
+
+    .flow-icon {
+      display: grid;
+      width: 38px;
+      height: 38px;
+      place-items: center;
+      background: rgba(173, 121, 255, 0.1);
+      border-radius: 10px;
+      color: var(--purple-light);
+      font-size: 1rem;
+    }
+
+    .flow-item strong {
+      display: block;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    .flow-item small {
+      display: block;
+      margin-top: 1px;
+      color: var(--muted);
+      font-size: 0.6rem;
+      line-height: 1.5;
+    }
+
+    .flow-check {
+      color: var(--success);
+      font-size: 0.75rem;
+    }
+
+    .workflow-note {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 0.64rem;
+      text-align: center;
+    }
+
+    /* Capabilities */
+    .capabilities {
+      padding: 25px 0;
+      border-block: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.018);
+    }
+
+    .capabilities-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 16px;
+    }
+
+    .capability {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: #d1c5df;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .capability span:first-child {
+      font-size: 1.1rem;
+    }
+
+    /* Creative samples */
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .portfolio-card {
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      border-radius: var(--radius);
+      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .portfolio-card:hover {
+      border-color: rgba(173, 121, 255, 0.42);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.24);
+      transform: translateY(-5px);
+    }
+
+    .portfolio-image-wrap {
+      position: relative;
+      height: 300px;
+      overflow: hidden;
+      background: var(--surface-2);
+    }
+
+    .portfolio-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.65s cubic-bezier(0.2, 0.7, 0.2, 1);
+    }
+
+    .portfolio-card:hover .portfolio-image-wrap img {
+      transform: scale(1.06);
+    }
+
+    .portfolio-label {
+      position: absolute;
+      inset-inline-start: 13px;
+      top: 13px;
+      padding: 7px 10px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(11, 7, 18, 0.78);
+      border-radius: 100px;
+      color: #f6edff;
+      font-size: 0.6rem;
+      font-weight: 700;
+      backdrop-filter: blur(12px);
+    }
+
+    .portfolio-copy {
+      padding: 18px 20px 20px;
+    }
+
+    .portfolio-type {
+      margin-bottom: 6px;
+      color: var(--purple-light);
+      font-size: 0.62rem;
+      font-weight: 700;
+    }
+
+    .portfolio-copy h3 {
+      font-size: 1.05rem;
+    }
+
+    /* Services */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .service-card {
+      padding: 30px;
+      border: 1px solid var(--border);
+      background:
+        linear-gradient(145deg, rgba(173, 121, 255, 0.035), transparent 50%),
+        var(--surface);
+      border-radius: var(--radius);
+      transition: transform 0.25s ease, border-color 0.25s ease;
+    }
+
+    .service-card:hover {
+      border-color: rgba(173, 121, 255, 0.38);
+      transform: translateY(-5px);
+    }
+
+    .service-icon {
+      display: grid;
+      width: 50px;
+      height: 50px;
+      margin-bottom: 34px;
+      place-items: center;
+      border: 1px solid rgba(173, 121, 255, 0.2);
+      background: rgba(173, 121, 255, 0.09);
+      border-radius: 15px;
+      color: var(--purple-light);
+    }
+
+    .service-card h3 {
+      margin-bottom: 12px;
+    }
+
+    .service-card p {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .service-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 22px;
+      list-style: none;
+    }
+
+    .service-list li {
+      padding: 6px 10px;
+      background: rgba(255, 255, 255, 0.04);
+      border-radius: 8px;
+      color: #d1c5df;
+      font-size: 0.65rem;
+    }
+
+    /* Connected system */
+    .system {
+      border-block: 1px solid var(--border);
+      background: var(--bg-soft);
+    }
+
+    .system-grid {
+      display: grid;
+      grid-template-columns: 0.85fr 1.15fr;
+      gap: 75px;
+      align-items: center;
+    }
+
+    .system-copy p {
+      margin: 22px 0 28px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .system-steps {
+      display: grid;
+      gap: 11px;
+    }
+
+    .system-step {
+      display: grid;
+      grid-template-columns: 45px 1fr auto;
+      gap: 15px;
+      padding: 18px;
+      align-items: center;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      border-radius: 16px;
+    }
+
+    .step-number {
+      display: grid;
+      width: 45px;
+      height: 45px;
+      place-items: center;
+      background: rgba(173, 121, 255, 0.09);
+      border-radius: 12px;
+      color: var(--purple-light);
+      font-size: 0.72rem;
+      font-weight: 800;
+    }
+
+    .system-step strong {
+      display: block;
+      margin-bottom: 3px;
+      font-size: 0.82rem;
+    }
+
+    .system-step small {
+      display: block;
+      color: var(--muted);
+      font-size: 0.67rem;
+      line-height: 1.55;
+    }
+
+    .step-check {
+      color: var(--purple-light);
+    }
+
+    /* Value stack */
+    .value-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 45px;
+      padding: clamp(30px, 5vw, 55px);
+      align-items: center;
+      border: 1px solid rgba(173, 121, 255, 0.2);
+      background:
+        radial-gradient(circle at 90% 0%, rgba(173, 121, 255, 0.14), transparent 40%),
+        var(--surface);
+      border-radius: 30px;
+    }
+
+    .value-box h2 {
+      margin-bottom: 18px;
+      font-size: clamp(1.9rem, 3.5vw, 3rem);
+    }
+
+    .value-box p {
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .value-list {
+      display: grid;
+      gap: 13px;
+      list-style: none;
+    }
+
+    .value-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 11px;
+      color: #ddd3e8;
+      font-size: 0.79rem;
+    }
+
+    .value-check {
+      display: grid;
+      width: 24px;
+      height: 24px;
+      flex: 0 0 auto;
+      place-items: center;
+      background: rgba(173, 121, 255, 0.12);
+      border-radius: 50%;
+      color: var(--purple-light);
+      font-size: 0.65rem;
+    }
+
+    /* Process */
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    .process-card {
+      position: relative;
+      padding: 25px;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.018);
+      border-radius: 18px;
+    }
+
+    .process-card > span {
+      display: block;
+      margin-bottom: 38px;
+      color: var(--purple-light);
+      font-size: 0.66rem;
+      font-weight: 800;
+    }
+
+    .process-card h3 {
+      margin-bottom: 11px;
+      font-size: 1.05rem;
+    }
+
+    .process-card p {
+      color: var(--muted);
+      font-size: 0.76rem;
+    }
+
+    /* CTA */
+    .cta {
+      padding: 25px 0 100px;
+    }
+
+    .cta-box {
+      position: relative;
+      padding: clamp(40px, 7vw, 75px);
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 10% 10%, rgba(255, 255, 255, 0.22), transparent 25%),
+        var(--purple);
+      border-radius: 30px;
+      color: #14091e;
+      text-align: center;
+    }
+
+    .cta-box::after {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      inset-inline-end: -110px;
+      bottom: -170px;
+      border: 50px solid rgba(20, 9, 30, 0.08);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .cta-icon {
+      display: grid;
+      width: 55px;
+      height: 55px;
+      margin: 0 auto 22px;
+      place-items: center;
+      background: rgba(20, 9, 30, 0.1);
+      border-radius: 17px;
+      font-size: 1.5rem;
+    }
+
+    .cta-box h2 {
+      max-width: 780px;
+      margin: 0 auto 17px;
+    }
+
+    .cta-box p {
+      max-width: 650px;
+      margin: 0 auto 28px;
+      color: #352044;
+      font-size: 0.9rem;
+    }
+
+    .cta-actions {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 11px;
+    }
+
+    .cta-box .button-dark:hover {
+      box-shadow: 0 12px 35px rgba(20, 9, 30, 0.25);
+    }
+
+    .button-outline-dark {
+      border-color: rgba(20, 9, 30, 0.25);
+      color: #14091e;
+    }
+
+    /* FAQ */
+    .faq-title {
+      text-align: center;
+    }
+
+    .faq-list {
+      max-width: 850px;
+      margin: 40px auto 0;
+    }
+
+    details {
+      padding: 21px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      flex: 0 0 auto;
+      color: var(--purple-light);
+      content: "+";
+      font-size: 1.4rem;
+    }
+
+    details[open] summary::after {
+      content: "−";
+    }
+
+    details p {
+      max-width: 740px;
+      padding-top: 14px;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 36px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .footer p {
+      color: var(--muted);
+      font-size: 0.7rem;
+      text-align: center;
+    }
+
+    .social-links {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .social-link {
+      display: grid;
+      width: 40px;
+      height: 40px;
+      place-items: center;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      border-radius: 12px;
+      color: var(--muted);
+      transition: 0.2s ease;
+    }
+
+    .social-link:hover {
+      border-color: var(--purple);
+      color: var(--purple-light);
+      transform: translateY(-2px);
+    }
+
+    /* Floating WhatsApp */
+    .floating-whatsapp {
+      position: fixed;
+      z-index: 90;
+      inset-inline-end: 22px;
+      bottom: 22px;
+      display: flex;
+      width: 56px;
+      height: 56px;
+      align-items: center;
+      justify-content: center;
+      background: #25d366;
+      border-radius: 50%;
+      color: #092d18;
+      box-shadow: 0 12px 35px rgba(37, 211, 102, 0.24);
+      transition: transform 0.2s ease;
+    }
+
+    .floating-whatsapp:hover {
+      transform: translateY(-4px) scale(1.03);
+    }
+
+    .floating-whatsapp .icon {
+      width: 27px;
+      height: 27px;
+    }
+
+    @media (max-width: 1020px) {
+      .nav-links {
+        gap: 15px;
+      }
+
+      .nav-actions > .button {
+        display: none;
+      }
+
+      .hero-grid {
+        gap: 40px;
+      }
+
+      .capabilities-grid {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 22px;
+      }
+    }
+
+    @media (max-width: 850px) {
+      .hero-grid,
+      .system-grid,
+      .value-box {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-grid {
+        gap: 50px;
+      }
+
+      .workflow {
+        max-width: 570px;
+      }
+
+      .section-heading {
+        grid-template-columns: 1fr;
+        gap: 18px;
+      }
+
+      .system-grid {
+        gap: 45px;
+      }
+
+      .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .portfolio-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .menu-toggle {
+        display: grid;
+        place-items: center;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 75px;
+        inset-inline: 20px;
+        display: none;
+        padding: 23px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 18px;
+        border: 1px solid var(--border);
+        background: #160e23;
+        border-radius: 18px;
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .container {
+        width: min(var(--max-width), calc(100% - 28px));
+      }
+
+      .section {
+        padding: 75px 0;
+      }
+
+      .hero {
+        padding: 55px 0 65px;
+      }
+
+      h1 {
+        font-size: clamp(2.4rem, 12vw, 3.8rem);
+      }
+
+      .nav {
+        min-height: 74px;
+        gap: 10px;
+      }
+
+      .logo {
+        font-size: 1rem;
+      }
+
+      .logo-mark {
+        width: 34px;
+        height: 34px;
+      }
+
+      .language-switch button {
+        min-width: 29px;
+        padding-inline: 6px;
+      }
+
+      .hero-actions .button {
+        width: 100%;
+      }
+
+      .workflow {
+        padding: 16px;
+      }
+
+      .order-card {
+        padding: 13px;
+      }
+
+      .order-title {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .capabilities-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .services-grid,
+      .process-grid,
+      .portfolio-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .service-card {
+        padding: 25px;
+      }
+
+      .service-icon {
+        margin-bottom: 25px;
+      }
+
+      .system-step {
+        grid-template-columns: 40px 1fr;
+        padding: 15px;
+      }
+
+      .step-number {
+        width: 40px;
+        height: 40px;
+      }
+
+      .step-check {
+        display: none;
+      }
+
+      .value-box {
+        gap: 30px;
+      }
+
+      .cta-actions .button {
+        width: 100%;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+      }
+
+      .footer {
+        padding-bottom: 95px;
+      }
+
+      .floating-whatsapp {
+        inset-inline-end: 16px;
+        bottom: 16px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      * {
+        transition: none !important;
+      }
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-DQ0RMAsz.js"></script>
+</head>
+
+<body>
+  <!-- Reusable icons -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-website" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18" fill="none" stroke="currentColor" stroke-width="1.8"/>
+      </symbol>
+
+      <symbol id="i-page" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="18" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M3 8h18M7 5.5h.01M10 5.5h.01M7 12h4M7 16h10M15 11v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </symbol>
+
+      <symbol id="i-marketing" viewBox="0 0 24 24">
+        <path d="m4 13 12-6v10L4 11v2Z M16 10h2a3 3 0 0 1 0 6h-2M6 12l1.5 7H11l-1-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </symbol>
+
+      <symbol id="i-target" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+      </symbol>
+
+      <symbol id="i-sheet" viewBox="0 0 24 24">
+        <rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M4 9h16M4 15h16M10 9v12" fill="none" stroke="currentColor" stroke-width="1.8"/>
+      </symbol>
+
+      <symbol id="i-send" viewBox="0 0 24 24">
+        <path d="m21 3-8 18-3-8-8-3 19-7Z M10 13 21 3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </symbol>
+
+      <symbol id="i-truck" viewBox="0 0 24 24">
+        <path d="M3 5h11v12H3zM14 9h4l3 4v4h-7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+        <circle cx="7" cy="18" r="2" fill="var(--surface)" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="18" cy="18" r="2" fill="var(--surface)" stroke="currentColor" stroke-width="1.8"/>
+      </symbol>
+
+      <symbol id="i-video" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="14" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <path d="m17 10 4-2v8l-4-2M9 9l4 3-4 3V9Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      </symbol>
+
+      <symbol id="i-users" viewBox="0 0 24 24">
+        <circle cx="9" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M3 20v-2a6 6 0 0 1 12 0v2M16 5a3 3 0 0 1 0 6M17 14a5 5 0 0 1 4 5v1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </symbol>
+
+      <symbol id="i-chart" viewBox="0 0 24 24">
+        <path d="M4 20V10M10 20V4M16 20v-7M22 20H2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </symbol>
+
+      <symbol id="i-whatsapp" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4.1 1.6 5.9L0 24l6.5-1.7a11.8 11.8 0 0 0 5.6 1.4c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.2-6.1-3.4-8.4Zm-8.4 18.2c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.9 1 1-3.8-.2-.4a9.8 9.8 0 1 1 8.5 4.8Zm5.4-7.3c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.2l-1 1.2c-.2.2-.4.2-.7.1-1.8-.9-3-1.6-4.2-3.7-.3-.5.3-.5.9-1.7.1-.2 0-.4 0-.6L8.8 6.8c-.2-.5-.4-.4-.7-.4h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.6c.1.2 2.4 3.7 5.9 5.2 2.2.9 3 .9 4.1.8.7-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4l-.5-.4Z"/>
+      </symbol>
+
+      <symbol id="i-instagram" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+      </symbol>
+
+      <symbol id="i-linkedin" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M5.3 7.8A2.3 2.3 0 1 0 5.3 3a2.3 2.3 0 0 0 0 4.7ZM3.4 21h3.9V9.2H3.4V21Zm6.3 0h3.9v-6.5c0-1.7.3-3.4 2.5-3.4 2.1 0 2.2 2 2.2 3.5V21h3.9v-7.3c0-3.6-.8-6.3-4.9-6.3-2 0-3.3 1.1-3.9 2.1h-.1V9.2H9.7V21Z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#" aria-label="WebCraft">
+        <span class="logo-mark">W</span>
+        <span>WebCraft</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Navigation">
+        <a href="#services" data-i18n="navServices">الخدمات</a>
+        <a href="#system" data-i18n="navSystem">نظام الطلبات</a>
+        <a href="#process" data-i18n="navProcess">طريقة العمل</a>
+        <a href="#faq" data-i18n="navFaq">الأسئلة الشائعة</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="language-switch" aria-label="Language selector">
+          <button type="button" data-lang="ar" class="active" aria-pressed="true">ع</button>
+          <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+
+        <a
+          class="button button-primary whatsapp-link"
+          href="https://wa.me/213696772659"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="icon"><use href="#i-whatsapp"></use></svg>
+          <span data-i18n="contact">تواصل معنا</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Menu"
+          aria-expanded="false"
+        >☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow" data-i18n="heroEyebrow">
+            شريك نمو التجارة الإلكترونية
+          </div>
+
+          <h1 data-i18n-html="heroTitle">
+            من الإعلان إلى الطلب…<br />
+            <span class="accent">كل شيء في نظام واحد.</span>
+          </h1>
+
+          <p class="hero-copy" data-i18n="heroText">
+            WebCraft تجمع بين صفحة هبوط عصرية، محتوى إعلاني يلفت الانتباه،
+            ونظام طلبات مترابط — مع شريك واحد بدلاً من التنسيق بين عدة مزودي خدمات.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              class="button button-primary whatsapp-link"
+              href="https://wa.me/213696772659"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="icon"><use href="#i-whatsapp"></use></svg>
+              <span data-i18n="heroPrimary">ناقش مشروعك على واتساب</span>
+            </a>
+
+            <a class="button button-secondary" href="#services">
+              <span data-i18n="heroSecondary">اكتشف ما ستحصل عليه</span>
+              <span>↓</span>
+            </a>
+          </div>
+
+          <div class="hero-tags">
+            <span class="tag" data-i18n="chip1">تصميم متجاوب</span>
+            <span class="tag" data-i18n="chip2">تتبع Meta Pixel</span>
+            <span class="tag" data-i18n="chip3">تنبيهات Telegram</span>
+          </div>
+        </div>
+
+        <div class="workflow">
+          <div class="workflow-top">
+            <span data-i18n="boardLabel">هكذا تتحرك طلباتك</span>
+            <span class="live" data-i18n="boardStatus">نظام مترابط</span>
+          </div>
+
+          <div class="order-card">
+            <div class="order-label" data-i18n="orderNew">طلب جديد</div>
+
+            <div class="order-title">
+              <span data-i18n="orderCustomer">من أول نقرة إلى التوصيل</span>
+              <span class="order-status" data-i18n="orderReceived">تم استلام الطلب</span>
+            </div>
+
+            <div class="flow-list">
+              <div class="flow-item">
+                <span class="flow-icon">◎</span>
+                <div>
+                  <strong data-i18n="flowAd">إعلان Meta</strong>
+                  <small data-i18n="flowAdSub">صورة أو فيديو برسالة واضحة</small>
+                </div>
+                <span class="flow-check">✓</span>
+              </div>
+
+              <div class="flow-item">
+                <span class="flow-icon">
+                  <svg class="icon"><use href="#i-page"></use></svg>
+                </span>
+                <div>
+                  <strong data-i18n="flowPage">صفحة الهبوط</strong>
+                  <small data-i18n="flowPageSub">عرض المنتج واستقبال معلومات العميل</small>
+                </div>
+                <span class="flow-check">✓</span>
+              </div>
+
+              <div class="flow-item">
+                <span class="flow-icon">
+                  <svg class="icon"><use href="#i-sheet"></use></svg>
+                </span>
+                <div>
+                  <strong>Google Sheets</strong>
+                  <small data-i18n="flowSheetSub">حفظ بيانات الطلبات تلقائياً</small>
+                </div>
+                <span class="flow-check">✓</span>
+              </div>
+
+              <div class="flow-item">
+                <span class="flow-icon">
+                  <svg class="icon"><use href="#i-send"></use></svg>
+                </span>
+                <div>
+                  <strong>Telegram Bot</strong>
+                  <small data-i18n="flowTelegramSub">إشعار فوري لفريقك</small>
+                </div>
+                <span class="flow-check">✓</span>
+              </div>
+
+              <div class="flow-item">
+                <span class="flow-icon">
+                  <svg class="icon"><use href="#i-truck"></use></svg>
+                </span>
+                <div>
+                  <strong data-i18n="flowDelivery">شركة التوصيل</strong>
+                  <small data-i18n="flowDeliverySub">ربط عبر API عند توفره</small>
+                </div>
+                <span class="flow-check">✓</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="workflow-note" data-i18n="boardNote">
+            تقنية أقل تشتتاً. عمل يدوي أقل. رؤية أوضح لطلباتك.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Capabilities -->
+    <div class="capabilities">
+      <div class="container capabilities-grid">
+        <div class="capability"><span>🌐</span><span data-i18n="cap1">مواقع وصفحات</span></div>
+        <div class="capability"><span>🎯</span><span>Meta Ads</span></div>
+        <div class="capability"><span>🎬</span><span data-i18n="cap3">صور وفيديو</span></div>
+        <div class="capability"><span>📊</span><span>Google Sheets</span></div>
+        <div class="capability"><span>✈️</span><span>Telegram Bot</span></div>
+        <div class="capability"><span>🚚</span><span data-i18n="cap6">ربط التوصيل</span></div>
+      </div>
+    </div>
+
+    <!-- Creative samples -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow" data-i18n="portfolioEyebrow">نماذج إبداعية توضيحية</div>
+            <h2 data-i18n="portfolioTitle">أفكار إعلانية تلفت الانتباه.</h2>
+          </div>
+          <p data-i18n="portfolioText">نماذج بصرية توضّح كيف يمكن تقديم المنتجات في إعلانات التواصل وصفحات الهبوط. هذه تصورات إبداعية وليست أعمالاً لعملاء.</p>
+        </div>
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <div class="portfolio-image-wrap">
+              <img src="/images/serum-campaign.jpg" alt="تصور إعلاني لمنتج عناية بالبشرة" data-i18n-alt="portfolioAlt1" />
+              <span class="portfolio-label" data-i18n="portfolioSample">تصور إعلاني</span>
+            </div>
+            <div class="portfolio-copy">
+              <p class="portfolio-type" data-i18n="portfolioType1">إعلان اجتماعي · عناية بالبشرة</p>
+              <h3 data-i18n="portfolioTitle1">طقس يومي بروح جديدة</h3>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="portfolio-image-wrap">
+              <img src="/images/coffee-campaign.jpg" alt="تصور إعلاني لمنتج قهوة" data-i18n-alt="portfolioAlt2" />
+              <span class="portfolio-label" data-i18n="portfolioSample">تصور إعلاني</span>
+            </div>
+            <div class="portfolio-copy">
+              <p class="portfolio-type" data-i18n="portfolioType2">إعلان اجتماعي · قهوة مختصة</p>
+              <h3 data-i18n="portfolioTitle2">بداية أهدأ لصباحك</h3>
+            </div>
+          </article>
+          <article class="portfolio-card">
+            <div class="portfolio-image-wrap">
+              <img src="/images/sneaker-campaign.jpg" alt="تصور إعلاني لحذاء رياضي" data-i18n-alt="portfolioAlt3" />
+              <span class="portfolio-label" data-i18n="portfolioSample">تصور إعلاني</span>
+            </div>
+            <div class="portfolio-copy">
+              <p class="portfolio-type" data-i18n="portfolioType3">إعلان اجتماعي · أحذية رياضية</p>
+              <h3 data-i18n="portfolioTitle3">تحرّك بإيقاعك</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow" data-i18n="servicesEyebrow">كل ما تحتاجه للإطلاق</div>
+            <h2 data-i18n="servicesTitle">لا تشتري مجرد تصميم. ابنِ نظام مبيعات.</h2>
+          </div>
+          <p data-i18n="servicesText">
+            بدلاً من شراء كل خدمة على حدة، تحصل على الصفحة والمحتوى والإعلانات
+            ومسار الطلب ضمن رؤية واحدة مبنية حول منتجك.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon">
+              <svg class="icon"><use href="#i-page"></use></svg>
+            </div>
+            <h3 data-i18n="s1Title">صفحات هبوط مهيأة للتحويل</h3>
+            <p data-i18n="s1Text">
+              تصميم عصري، سريع ومتجاوب يشرح قيمة منتجك بوضوح ويقود الزائر نحو
+              إجراء واحد: إرسال طلبه.
+            </p>
+            <ul class="service-list">
+              <li data-i18n="s1a">تصميم عصري UI/UX</li>
+              <li data-i18n="s1b">متوافق مع الهاتف</li>
+              <li data-i18n="s1c">نموذج طلب واضح</li>
+              <li>Meta Pixel</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <svg class="icon"><use href="#i-sheet"></use></svg>
+            </div>
+            <h3 data-i18n="s2Title">إدارة طلبات مترابطة</h3>
+            <p data-i18n="s2Text">
+              اربط صفحتك بالأدوات التي يستخدمها فريقك، حتى تنتقل معلومات الطلب
+              بسرعة وبوضوح بدلاً من النسخ اليدوي المتكرر.
+            </p>
+            <ul class="service-list">
+              <li>Google Sheets</li>
+              <li>Telegram Bot</li>
+              <li data-i18n="s2c">Delivery API</li>
+              <li data-i18n="s2d">تنظيم بيانات الطلبات</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <svg class="icon"><use href="#i-marketing"></use></svg>
+            </div>
+            <h3 data-i18n="s3Title">محتوى إعلاني وإدارة Meta Ads</h3>
+            <p data-i18n="s3Text">
+              صور وفيديوهات للمنتج، زوايا إعلانية مختلفة، وإعداد الحملات لاختبار
+              الرسائل والتصاميم التي يستجيب لها جمهورك.
+            </p>
+            <ul class="service-list">
+              <li data-i18n="s3a">تصاميم إعلانية</li>
+              <li data-i18n="s3b">فيديوهات للمنتج</li>
+              <li data-i18n="s3c">إعداد الحملات</li>
+              <li data-i18n="s3d">اختبار المحتوى</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <svg class="icon"><use href="#i-users"></use></svg>
+            </div>
+            <h3 data-i18n="s4Title">خدمة العملاء وتأكيد الطلبات</h3>
+            <p data-i18n="s4Text">
+              دعم لعمليتك اليومية عبر متابعة العملاء وتأكيد الطلبات والتنسيق،
+              لتجربة شراء أكثر تنظيماً من الطلب حتى التسليم.
+            </p>
+            <ul class="service-list">
+              <li data-i18n="s4a">تأكيد الطلبات</li>
+              <li data-i18n="s4b">متابعة العملاء</li>
+              <li data-i18n="s4c">تنسيق الخدمة</li>
+              <li data-i18n="s4d">متابعة العملية</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- System -->
+    <section class="section system" id="system">
+      <div class="container system-grid">
+        <div class="system-copy">
+          <div class="eyebrow" data-i18n="systemEyebrow">ما بعد صفحة الهبوط</div>
+          <h2 data-i18n="systemTitle">عمل يدوي أقل. رؤية أوضح لكل طلب.</h2>
+          <p data-i18n="systemText">
+            الصفحة الجميلة ليست سوى البداية. نربط رحلة البيع حتى تنتقل الطلبات
+            من موقعك إلى فريقك وشريك التوصيل بخطوات واضحة ومترابطة.
+          </p>
+          <a
+            class="button button-secondary whatsapp-link"
+            href="https://wa.me/213696772659"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span data-i18n="systemCta">ناقش نظام الطلبات الخاص بك</span>
+            <span>↗</span>
+          </a>
+        </div>
+
+        <div class="system-steps">
+          <div class="system-step">
+            <span class="step-number">01</span>
+            <div>
+              <strong data-i18n="step1Title">العميل يرسل طلبه</strong>
+              <small data-i18n="step1Text">عبر صفحة واضحة وسهلة الاستخدام على الهاتف</small>
+            </div>
+            <span class="step-check">→</span>
+          </div>
+
+          <div class="system-step">
+            <span class="step-number">02</span>
+            <div>
+              <strong data-i18n="step2Title">يتم تنظيم البيانات</strong>
+              <small data-i18n="step2Text">تُضاف تفاصيل الطلب تلقائياً إلى Google Sheets</small>
+            </div>
+            <span class="step-check">→</span>
+          </div>
+
+          <div class="system-step">
+            <span class="step-number">03</span>
+            <div>
+              <strong data-i18n="step3Title">يصل الإشعار إلى فريقك</strong>
+              <small data-i18n="step3Text">يرسل Telegram Bot معلومات الطلب مباشرة</small>
+            </div>
+            <span class="step-check">→</span>
+          </div>
+
+          <div class="system-step">
+            <span class="step-number">04</span>
+            <div>
+              <strong data-i18n="step4Title">يتم ربط التوصيل</strong>
+              <small data-i18n="step4Text">تكامل مع API شركة التوصيل المدعومة</small>
+            </div>
+            <span class="step-check">✓</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value stack -->
+    <section class="section">
+      <div class="container">
+        <div class="value-box">
+          <div>
+            <div class="eyebrow" data-i18n="valueEyebrow">شريك واحد، رؤية واحدة</div>
+            <h2 data-i18n="valueTitle">توقف عن جمع الخدمات المتفرقة.</h2>
+            <p data-i18n="valueText">
+              عندما تعمل الصفحة والمحتوى والإعلانات ومسار الطلب معاً، يصبح من
+              الأسهل معرفة ما يحدث وما يحتاج إلى تحسين.
+            </p>
+          </div>
+
+          <ul class="value-list">
+            <li><span class="value-check">✓</span><span data-i18n="value1">رسالة واضحة تشرح لماذا يختار العميل منتجك</span></li>
+            <li><span class="value-check">✓</span><span data-i18n="value2">صفحة مصممة حول منتجك وجمهورك، وليست قالباً عشوائياً</span></li>
+            <li><span class="value-check">✓</span><span data-i18n="value3">محتوى إعلاني يمكن اختباره وتطويره</span></li>
+            <li><span class="value-check">✓</span><span data-i18n="value4">تتبع Meta Pixel لفهم تفاعل الزوار مع الصفحة</span></li>
+            <li><span class="value-check">✓</span><span data-i18n="value5">مسار طلب منظم يقلل الاعتماد على العمل اليدوي</span></li>
+            <li><span class="value-check">✓</span><span data-i18n="value6">نطاق عمل واضح يتم الاتفاق عليه قبل البداية</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section" id="process" style="padding-top: 10px;">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow" data-i18n="processEyebrow">عملية واضحة</div>
+            <h2 data-i18n="processTitle">من فكرتك إلى الإطلاق.</h2>
+          </div>
+          <p data-i18n="processText">
+            لا مصطلحات معقدة ولا خطوات غامضة. نبدأ بالمنتج والهدف، ثم نبني
+            ونختبر كل جزء قبل الإطلاق.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-card">
+            <span data-i18n="process1Label">الخطوة 01</span>
+            <h3 data-i18n="process1Title">نفهم العرض</h3>
+            <p data-i18n="process1Text">نراجع المنتج والسعر والجمهور وطريقة إدارة الطلبات الحالية.</p>
+          </article>
+
+          <article class="process-card">
+            <span data-i18n="process2Label">الخطوة 02</span>
+            <h3 data-i18n="process2Title">نصمم ونبني</h3>
+            <p data-i18n="process2Text">ننشئ الصفحة ونربط النماذج والتتبع والتكاملات المطلوبة.</p>
+          </article>
+
+          <article class="process-card">
+            <span data-i18n="process3Label">الخطوة 03</span>
+            <h3 data-i18n="process3Title">نصنع المحتوى ونطلق</h3>
+            <p data-i18n="process3Text">نجهز الصور والفيديو والحملات، ثم نختبر رحلة العميل كاملة.</p>
+          </article>
+
+          <article class="process-card">
+            <span data-i18n="process4Label">الخطوة 04</span>
+            <h3 data-i18n="process4Title">ندير ونحسّن</h3>
+            <p data-i18n="process4Text">نتابع النشاط ونختبر ما يمكن تحسينه بناءً على ما نتعلمه.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="container">
+        <div class="cta-box">
+          <div class="cta-icon"><svg class="icon"><use href="#i-whatsapp"></use></svg></div>
+          <div class="eyebrow" data-i18n="ctaEyebrow">الخطوة التالية</div>
+          <h2 data-i18n="ctaTitle">هل أنت مستعد لتحويل الاهتمام إلى طلبات؟</h2>
+          <p data-i18n="ctaText">لنتحدث عن منتجك ونحدد كيف يمكن للإعلانات وصفحة الهبوط ومسار الطلب أن تعمل معاً.</p>
+          <div class="cta-actions">
+            <a class="button button-dark whatsapp-link" href="https://wa.me/213696772659" target="_blank" rel="noopener noreferrer">
+              <svg class="icon"><use href="#i-whatsapp"></use></svg>
+              <span data-i18n="ctaButton">ناقش مشروعك على واتساب</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="faq-title">
+          <div class="eyebrow" data-i18n="faqEyebrow">إجابات سريعة</div>
+          <h2 data-i18n="faqTitle">أسئلة شائعة</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary data-i18n="faq1Question">لمن تناسب هذه الخدمة؟</summary>
+            <p data-i18n="faq1Answer">لأصحاب المتاجر الإلكترونية الذين يريدون ربط الإعلانات والمحتوى الإبداعي وصفحات الهبوط ضمن رحلة شراء أوضح.</p>
+          </details>
+          <details>
+            <summary data-i18n="faq2Question">هل يمكن البدء بخدمة واحدة؟</summary>
+            <p data-i18n="faq2Answer">نعم. يمكن البدء بالمحتوى الإعلاني أو إدارة الحملات أو صفحة الهبوط، ثم إضافة الخدمات الأخرى حسب الحاجة.</p>
+          </details>
+          <details>
+            <summary data-i18n="faq3Question">كيف تبدأ الخطوة الأولى؟</summary>
+            <p data-i18n="faq3Answer">نتحدث عن المنتج والجمهور والهدف، ثم نتفق على نطاق عمل واضح وخطوة أولى مناسبة.</p>
+          </details>
+          <details>
+            <summary data-i18n="faq4Question">هل تضمنون نتائج محددة؟</summary>
+            <p data-i18n="faq4Answer">لا توجد نتائج مضمونة؛ الأداء يعتمد على عوامل كثيرة. نركز على التخطيط والقياس والتحسين المستمر.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#" aria-label="WebCraft">
+        <span class="logo-mark">W</span>
+        <span>WebCraft</span>
+      </a>
+      <p data-i18n="footerText">شريك نمو مترابط لمتاجر التجارة الإلكترونية.</p>
+      <div class="social-links">
+        <a class="social-link" href="#services" aria-label="Services"><svg class="icon"><use href="#i-marketing"></use></svg></a>
+        <a class="social-link" href="#portfolio" aria-label="Creative samples"><svg class="icon"><use href="#i-instagram"></use></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp whatsapp-link" href="https://wa.me/213696772659" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+    <svg class="icon"><use href="#i-whatsapp"></use></svg>
+  </a>
+
+</body>
+</html>
